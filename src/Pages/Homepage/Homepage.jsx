@@ -1,8 +1,12 @@
-import React from 'react'
-
+import {React} from 'react'
+import Slider from '../../Components/Slider/Slider'
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <div>
+        Homespage
+        <Slider />
+
+    </div>
   )
 }
 
