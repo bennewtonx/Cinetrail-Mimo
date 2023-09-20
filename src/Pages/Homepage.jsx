@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
 import './movies.css';
-import './styles.css';
+import './Styles.css';
 import Slider from './../Components/Slider/Slider';
 import PopularMovies from './../Components/PopularMovies/PopularMovies';
 import TopMovies from './../Components/TopMovies/TopMovies';
