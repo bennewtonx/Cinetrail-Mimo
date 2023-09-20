@@ -1,0 +1,9 @@
+.favorites-container {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: var(--header-height);
+    min-height: 100vh;
+    padding: 50px;
+  }

@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 :root {
-  --dark-bg: #221F1F;
-  --red: #E50916;
+  --dark-bg: #221f1f;
+  --red: #e50916;
   --white: #fff;
-  --light-bg: #F7F3F3;
+  --light-bg: #f7f3f3;
   --transparent-bg: rgba(20, 20, 20, 0.7);
   --header-height: 70px;
   --black: #000;
+  --grey-text: #9b9b9b;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   background-color: var(--dark-bg);
   color: white;
