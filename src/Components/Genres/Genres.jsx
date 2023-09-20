@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import axios from "axios";
+import axios from 'axios';
 
 export default function Genres(props) {
   const { genreIds = [], component } = props;

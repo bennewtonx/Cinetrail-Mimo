@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import StarRatings from "react-star-ratings";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import StarRatings from 'react-star-ratings';
 
 export default function MovieCard({
   movie,

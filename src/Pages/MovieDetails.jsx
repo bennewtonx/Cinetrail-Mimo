@@ -1,12 +1,12 @@
-import React, { useContext, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useContext, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
-import ReactPlayer from "react-player";
-import StarRatings from "react-star-ratings";
+import ReactPlayer from 'react-player';
+import StarRatings from 'react-star-ratings';
 
-import axios from "axios";
-import Genres from "../components/Genres/Genres";
-import ReviewItem from "../components/ReviewItem/ReviewItem";
+import axios from 'axios';
+import Genres from '../components/Genres/Genres';
+import ReviewItem from '../components/ReviewItem/ReviewItem';
 
 import { UserContext } from "../contexts/UserContext";
 

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import StarRatings from "react-star-ratings";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import StarRatings from 'react-star-ratings';
 
-import Genres from "../Genres/Genres";
+import Genres from '../Genres/Genres';
 
-import axios from "axios";
+import axios from 'axios';
 
-import "./Slider.css";
+import './Slider.css'
 
 export default function Slider() {
   const [upcomingMovies, setUpcomingMovies] = useState([]);

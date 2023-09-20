@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
-import MovieCard from "../Components/MovieCard";
+import React, { useContext, useEffect, useState } from 'react';
+import MovieCard from '../Components/MovieCard';
 
 import './favourites.css';
 

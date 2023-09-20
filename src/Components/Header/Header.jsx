@@ -1,13 +1,13 @@
-import React, { useContext, useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import axios from "axios";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { UserContext } from "../../contexts/UserContext";
-import { Link } from "react-router-dom";
-import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
-import SearchResultItem from "../../SearchResultItem/SearchResultItem";
+import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { UserContext } from '../../contexts/UserContext';
+import { Link } from 'react-router-dom';
+import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md';
+import SearchResultItem from '../../SearchResultItem/SearchResultItem';
 
-import "./Header.css";
+import './Header.css';
 
 export default function Header() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);

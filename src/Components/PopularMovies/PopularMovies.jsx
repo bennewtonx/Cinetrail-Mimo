@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import axios from "axios";
+import axios from 'axios';
 
-import MovieCard from "../MovieCard";
+import MovieCard from '../MovieCard';
 
 export default function PopularMovies() {
   const [popularMovies, setPopularMovies] = useState([]);

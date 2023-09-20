@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import axios from "axios";
-import MovieCard from "../MovieCard";
+import axios from 'axios';
+import MovieCard from '../MovieCard';
 
 export default function TopMovies() {
   const [topRatedMovies, setTopRatedMovies] = useState([]);

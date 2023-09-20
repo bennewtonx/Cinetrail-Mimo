@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
-import Slider from "../components/Slider/Slider";
-import PopularMovies from "../components/PopularMovies/PopularMovies";
-import { ThemeContext } from "../contexts/ThemeContext";
-import "./movies.css";
-import "./styles.css";
-import TopMovies from "../components/TopMovies/TopMovies";
+import React, { useContext } from 'react';
+import { ThemeContext } from '../contexts/ThemeContext';
+import './movies.css';
+import './styles.css';
+import Slider from './../Components/Slider/Slider';
+import PopularMovies from './../Components/PopularMovies/PopularMovies';
+import TopMovies from './../Components/TopMovies/TopMovies';
 
 export default function Homepage() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);

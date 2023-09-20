@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import noImage from "/noImage.png";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import noImage from '/noImage.png';
 
 export default function SearchResultItem({ movie, setQuery }) {
   return (

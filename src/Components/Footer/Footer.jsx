@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import "./Footer.css";
+import React, { useContext } from 'react';
+import './Footer.css';
 import { ThemeContext } from "../../contexts/ThemeContext";
 
 export default function Footer() {
