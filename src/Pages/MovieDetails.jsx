@@ -5,8 +5,8 @@ import ReactPlayer from 'react-player';
 import StarRatings from 'react-star-ratings';
 
 import axios from 'axios';
-import Genres from '../components/Genres/Genres';
-import ReviewItem from '../components/ReviewItem/ReviewItem';
+import Genres from '../Components/Genres/Genres';
+import ReviewItem from '../Components/ReviewItem/ReviewItem';
 
 import { UserContext } from "../contexts/UserContext";
 
