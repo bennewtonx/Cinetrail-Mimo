@@ -74,4 +74,14 @@
   .homepage-container {
     margin-top: var(--header-height-mobile);
   }
+
+  .popular-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .popular-title {
+    text-align: center;
+  }
 }
